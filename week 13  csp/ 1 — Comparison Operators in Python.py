@@ -28,7 +28,9 @@ print(a <= b)   # True
 4 <= 2 + 2
 
 # Write 3 examples that result in True and 3 that result in False.
-
+f
+h
+g==
 # Create a simple grade-checking condition:
 
 # practice problem :
