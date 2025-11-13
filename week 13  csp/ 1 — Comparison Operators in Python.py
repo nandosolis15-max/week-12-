@@ -28,9 +28,11 @@ print(a <= b)   # True
 4 <= 2 + 2
 
 # Write 3 examples that result in True and 3 that result in False.
-f
-h
-g==
+grade=  int(input("Enter your score: "))
+if grade >= 60 :
+    print("you passed the test")
+else:
+    print("you didnt pass") 
 # Create a simple grade-checking condition:
 
 # practice problem :
