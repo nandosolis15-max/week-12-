@@ -20,27 +20,27 @@ print(1 < x < 20)         # True
 
 
 # Practice Problems:
-
+#score ?grade checker
+#if the score is between 90 and 100 print A
+#if the score is between 80 and 90 print B
+#if the score is between 70 and 80 print C
+#if the score is between 60 and 70 print D
+grade = int(input("enter your score:"))
+if grade >= 100:
+    print("A")
+grade = int(input("enter your score:"))
+if grade >= 88:
+    print("B")
+    grade = int(input("enter your score:"))
+if grade >= 76:
+    print("C")
+    grade = int(input("enter your score:"))
+if grade >= 67:
+    print("D")
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
-print = int(input("whats your score?"))
-if score >= 90 and score <= 100:
-    print=" A "
-elif score >= 80 and score <= 90:
-    print=" B "
-elif score >= 70 and score <= 80:
-    print=" C "
-elif score >= 60 and score <= 70:
-    print=" D "
-elif score >= 50 and score <= 60:
-    print= " F "
-
-
- 
-
 
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
 
 # Use chained comparison to check if 3 < 4 < 5.
 
 # Challenge: Create a password rule using logical operators:
-
