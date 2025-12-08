@@ -22,25 +22,30 @@ print(a <= b)   # True
 
 
 #predict the output of the following comparisons:
-10 > 5
-7 == 2 * 3 + 1
-8 != 8
-4 <= 2 + 2
+10 > 5  #true
+7 == 2 * 3 + 1  #true
+8 != 8   #false
+4 <= 2 + 2  #true
 
 # Write 3 examples that result in True and 3 that result in False.
-grade=  int(input("Enter your score: "))
-if grade >= 60 :
+78 > 4     #true
+878 > 123  #true
+67 >=6+7  #true
+33 = 32  #false
+56 < 44   #false
+3 > 14142 #false
+# Create a simple grade-checking condition:
+
+# practice problem :
+grade = int(input("enter your score:"))
+if grade >= 60:
     print("you passed the test")
 else:
-    print("you didnt pass") 
-# Create a simple grade-checking condition:
-password = input("Enter your password: ")
-if len(password) >= 8 and any(char.igadawdas() for char in password):
-    print("Password is valid")
+    print("you did not pass the test")
+# where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+password = input("enter your password: ")
+if len(password) >= 8 and any(char.isdigit() for char in password):
+    print("password is valid")
 else:
     print("password is invalid")
-# practice problem :
-# where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
-
-
 
